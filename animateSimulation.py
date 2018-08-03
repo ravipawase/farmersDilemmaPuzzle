@@ -175,6 +175,6 @@ def getAnimation(df):
 
 
 	ani = matplotlib.animation.FuncAnimation(fig, animate, frames=len(df), interval=2000)
-
+	os.remove('./puzzle.log')
 	return ani
 

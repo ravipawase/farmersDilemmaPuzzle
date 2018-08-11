@@ -27,6 +27,6 @@ In this way once we have set upped the environment the question remain about the
 
 Once we have an environment and interaction of agent with environment set upped we can define a flow of simulation and during this flow actions will be taken randomly and after every action sucess or failure will be evaluated. The simulation will run untill a failure or sucess is encountered. So any indivisual simulation can be resulted into a success or failure. To solve the problem we can repeat the simulation untill we get a sucess.<br>
 
-To see simulation in action, run the [show_simulation.ipynb] (https://github.com/ravipawase/farmersDilemmaPuzzle/blob/master/show_simulation.ipynb) notebook.
+To see simulation in action, run the [show_simulation.ipynb](https://github.com/ravipawase/farmersDilemmaPuzzle/blob/master/show_simulation.ipynb) notebook.
 
 

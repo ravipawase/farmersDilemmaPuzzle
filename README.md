@@ -17,9 +17,10 @@ We can actually ask computer to take these actions successively only we have fol
 2. Computer will not know the result of each action, whether it resulted into sucess or failure etc.<br>
 
 So, to solve this problem we can take inspirations and use bits and parts from follwing two concepts / field of studies. <br>
-1. Random walk:<br>
+#### 1. Random walk:<br>
 As described on wikipedia, a random walk is a mathematical object, known as a stochastic or random process, that describes a path that consists of a succession of random steps on some mathematical space such as the integers. <br>
-2. Reinforcement Learning :<br>
+
+####  2. Reinforcement Learning :<br>
 As describe on wikipedia, Reinforcement learning (RL) is an area of machine learning, inspired by behaviorist psychology, concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward.<br>
 <br>
 

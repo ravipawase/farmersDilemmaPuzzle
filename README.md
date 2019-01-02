@@ -10,10 +10,11 @@ Everyone must have come across this puzzle sometime, where we need to help farme
 We can take advise from [XKCD](https://xkcd.com/1134/) and solve the problem for once and all!<br>
 
 ### Stratergy <br>
-Now, to solve this puzzle we can think successively what actions to take, undoing the action if results into a Goat being eaten by Wolf or Goat eating Cabbage. This is not difficult, with some efforts we can find out the sequence and we have a solution. But let us say we need to solve it by a computer program, what will be our stratergy then?<br>
+####Manual<br>
+Obviously, to solve this puzzle we can take pen and paper and successively note down what actions to take, undoing the action if results into a Goat being eaten by Wolf or Goat eating Cabbage. This is not difficult, with some efforts we can find out the sequence and we will have a solution after sacrificing few papers. But let us say we need to solve it by a computer program, what will be our stratergy then?<br>
 
 We can actually ask computer to take these actions successively only we have following problems<br>
-1. Computers cannot take decision on their own.<br>
+1. Computers cannot take decision on their own, without any logic provided for it.<br>
 2. Computer will not know the result of each action, whether it resulted into sucess or failure etc.<br>
 
 So, to solve this problem we can take inspirations and use bits and parts from follwing two concepts / field of studies. <br>
@@ -34,7 +35,19 @@ Once we have an environment and interaction of agent with environment set upped 
 ### Viewing it in action <br>
 To see simulation in action, run the [show_simulation.ipynb](https://github.com/ravipawase/farmersDilemmaPuzzle/blob/master/show_simulation.ipynb) notebook locally or nbviever as described above, since github cannot render dynamic notebooks.
 
-### Results <br>
+### Results  <br>
+Following plot shows the statistics of the success rate of the simulation.
+
+### Practical usage <br>
+Resultantly we are optimizing a certain process in this simulation. So the same thinking can applied to various practical situations where we need optimizing. Some of the applications where it can be used are listed below
+1. Route optimizations for ride sharing apps (real life version of postman problem)
+2. Crowd control simulations
+3. Financial risk assessment in unknown market scenarios
+4. Stellar and cosmological simulations of star formations and universe evolution
+
+
+
+
 
 
 

@@ -6,6 +6,7 @@ from matplotlib import animation
 import matplotlib.patches as mpatches
 import pandas as pd
 import matplotlib
+import os
 
 def getAnimation(df):
 	#set the coordinates of the elements/content
